@@ -16,8 +16,11 @@
 </head>
 
 <body>
+
     <section id="blog py-4">
         <div class="container">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             <h2 class="text-center py-3">My Blogs</h2>
             <div class="row">
                 <div class="col-lg-8">
@@ -169,21 +172,29 @@
 
                             <div class="category-btns p-4">
                                 <h5 class="pb-3">CATEGORIES</h5>
-                                <a href="#" class="btn btn-outline-secondary px-3">Education</a>
-                                <a href="#" class="btn btn-outline-secondary px-3">Food</a>
-                                <a href="#" class="btn btn-outline-secondary px-3">Health</a>
-                                <a href="#" class="btn btn-outline-secondary px-3">Marketing</a>
-                                <a href="#" class="btn btn-outline-secondary px-3">Housing</a>
-                                <a href="#" class="btn btn-outline-secondary px-3">Life Hacks</a>
+                                <div class="list-grouptext-dark">
+                                    <a href="#" class="list-group-item list-group-item-action active">
+                                        Education
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">Health</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Safety</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Agriculture</a>
+                                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
+                                        aria-disabled="true">Tourism</a>
+                                </div>
                             </div>
                             <div class="newsletter pt-3 p-3 mt-4"
                                 style="border: 0.5px solid #e9ecef;border-radius: 10px;">
                                 <h4>Sign up for the newsletter</h4>
                                 <div class="form-group">
-                                    <input name="email" type="text" placeholder="xxxx@xxxx.xxx" class="form-control"
-                                        required>
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="" placeholder="Your Email">
+                                    </div>
                                     <a type="submit" name="contact_message"
-                                        class="btn btn-primary text-white font-weight-bold">Submit</a>
+                                        class="btn btn-primary text-white font-weight-bold">Subscribe</a>
                                 </div>
                             </div>
                         </div>

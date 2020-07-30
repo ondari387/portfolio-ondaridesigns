@@ -3240,15 +3240,13 @@ fieldset:disabled a.btn {
     color: #007bff;
     border-color: #007bff;
     font-weight: 500;
-    padding: 10px 20px;
 }
 
 .btn-outline-primary:hover {
-    color: #FFC13E;
-    background-color: #212121;
-    border-color: #212121;
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
     font-weight: 500;
-    padding: 10px 20px;
 }
 
 .btn-outline-primary.focus,
@@ -3259,7 +3257,7 @@ fieldset:disabled a.btn {
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
     color: #007bff;
-    background-color: transparent
+    background-color: #007bff;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled).active,

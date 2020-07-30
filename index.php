@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ONDARIDESIGNS | Portfolio</title>
     <!--custom css-->
     <link rel="stylesheet" href="css/style.css" />
     <!--bootstrap css-->
@@ -16,9 +16,9 @@
 </head>
 
 <body>
-    <header class="px-5">
+    <header class="" style="border-bottom: 3px solid #e9ecef;">
         <section class="header">
-            <nav class=" navbar navbar-expand-lg ">
+            <nav class=" navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">ONDARIDESIGNS</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                     <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                             <a class="nav-link" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Blogs</a>
+                            <a class="nav-link" href="blog.html">Blogs</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact us</a>
@@ -44,7 +44,7 @@
                             <a class="nav-link" href="#">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-secondary" href="#" style="border-radius: 10px;">Hire Me</a>
+                            <a class="btn btn-outline-primary" href="#" style="border-radius: 10px;">Hire Me</a>
                         </li>
                     </ul>
                 </div>
@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="col-md-6" style="padding: 40px;">
-                        <img src="img/mik.png" class="w-100" alt="" />
+                        <img src="img/mike.jg" class="w-100" alt="" />
                     </div>
                 </div>
             </div>
@@ -292,7 +292,7 @@
                         <img src="img/background/tech6.jpg" class="w-100" alt="" />
                         <p>November 21, 2020</p>
                         <h5>How much does it cost to build a website?</h5>
-                        <a href="index.html" class="btn btn-primary mb-2">> Read More</span></a>
+                        <a href="blog.html" class="btn btn-primary md-mb-4">> Read More</span></a>
                         <!-- Button trigger modal 
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
                             Launch static backdrop modal
@@ -323,13 +323,13 @@
                         <img src="img/background/tech3.jpg" class="w-100" alt="" />
                         <p>November 21, 2020</p>
                         <h5>What are the new UI trends in the market?</h5>
-                        <a href="blogs.html" class="btn btn-primary mb-2">> Read More</a>
+                        <a href="blogs.html" class="btn btn-primary mb-3">> Read More</a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 blog-area">
                         <img src="img/background/tech4.jpg" class="w-100" alt="" />
                         <p>November 21, 2020</p>
                         <h5>The difference between a backend and frontend Developer</h5>
-                        <a href="#" class="btn btn-primary mb-2">> Read More</a>
+                        <a href="#" class="btn btn-primary mb-3">> Read More</a>
                     </div>
                 </div>
             </div>
@@ -357,8 +357,7 @@
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-baseline">
                             <div class="form-group">
-                                <i class="fa fa-envelope fa-1x text-muted mr-3"></i><a class="$"
-                                    href="mailto:ondari.mike@gmail.com">ondari.mike@gmail.com</a>
+                                <i class="fa fa-envelope fa-1x text-muted mr-3"></i><a class="$" href="mailto:ondari.mike@gmail.com">ondari.mike@gmail.com</a>
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-baseline">
@@ -372,7 +371,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb30">
                         <div class="contact-form">
-                            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+                            <form action="" method="POST">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt30">
                                     <h3 class="">Message me</h3>
                                     <hr class="my-3" />
@@ -380,22 +379,19 @@
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="form-group">
                                         <label>Name</label>
-                                        <input id="fname" name="fname" type="text" placeholder="First Name"
-                                            class="form-control" required>
+                                        <input id="fname" name="fname" type="text" placeholder="First Name" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="form-group">
                                         <label> Email</label>
-                                        <input name="email" type="text" placeholder="xxxx@xxxx.xxx" class="form-control"
-                                            required>
+                                        <input name="email" type="text" placeholder="xxxx@xxxx.xxx" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="form-group">
                                         <label>Message</label>
-                                        <textarea class="form-control" name="message" rows="4"
-                                            placeholder="Write Your Requirements"></textarea>
+                                        <textarea class="form-control" name="message" rows="4" placeholder="Write Your Requirements"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -478,6 +474,7 @@
                         <p>ondari.mike@gmail.com</p>
                     </div>
                 </div>
+                <hr>
                 <div class="footer-contact">
                     <div class="footer-social-icons">
                         <i class="fa fa-twitter mr-2"></i>
@@ -485,13 +482,10 @@
                         <i class="fa fa-linkedin mr-2"></i>
                         <i class="fa fa-instagram mr-2"></i>
                     </div>
-                    <div class="hire-footer">
-                        <a href="#" class="btn btn-primary">Hire Me Now</a>
+                    <div class="copyright">
+                        <p class="text-muted pb-4">copyright &copy;2020 Ondaridesigns</p>
                     </div>
                 </div>
-
-                <hr>
-                <p class="text-muted pb-4">copyright &copy;2020 Ondaridesigns</p>
             </div>
         </section>
     </div>

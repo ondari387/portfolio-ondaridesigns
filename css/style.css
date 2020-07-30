@@ -8,9 +8,26 @@
     padding: 50px 0 20px;
 }
 
+.introduction {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),
+        url("../img/background/tech2.jpg");*/
+    background: url("../img/ackground/tech2.jpg");
+    background-position: center;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
 
 ul li {
     margin-right: 20px !important;
+}
+
+ul li a {
+    font-weight: 600 !important;
+    font-size: 18px !important;
 }
 
 p {
@@ -101,7 +118,9 @@ ul li {
 }
 
 .contact {
+    padding: 70px 0;
     margin: 70px auto;
+    background: #fafafa;
 }
 
 .project-btn button {
@@ -136,4 +155,13 @@ ul li {
 
 .footer-contact:hover {
     cursor: pointer;
+}
+
+/*********media queries********/
+@media only screen and (max-width:425px) {
+    .blog-area {
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
 }
